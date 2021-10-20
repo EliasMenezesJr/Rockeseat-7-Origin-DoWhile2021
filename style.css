@@ -1,19 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 html, body{
     height: 100%;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+    --black: hsl(240%, 6% ,13%);
+    --gray:  hsl(240, 9%, 89%);
+    --gray-light: hsl(240, 7%, 78%);
 }
 
 body {
     display: grid;
     place-items: center;
+}
 
-    background: lightblue;
+main{
+    height: 812px;
+    width: 375px;
+
+    background: url('images/Mobile.png');
+}
+
+.avatar {
+    width: 10rem;
+    margin: 11.5rem auto 0;
+
+    position: relative;
+}
+
+.avatar span {
+    top: -15px;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.avatar > img {
+    height: 11.5rem;
+    width: 10rem;
+
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)
+}
+
+.container {
+    max-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+    color: var(--gray);
 }
 
 h1 {
     font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+p {
+    /* color: var(--gray); */
+    margin-top: 2rem;
 }
 
 a {
-    color: black;
+    color: var(--gray-light);
     text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .75rem;
+    margin-top: .25rem;
+}
+
+ul {
+    margin-top: 4rem;
+    gap: .5rem;
+    justify-content: center;
+    list-style: none;
+    
+    display: flex;
 }
