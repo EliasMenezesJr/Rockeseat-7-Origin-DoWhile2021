@@ -5,37 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elias Menezes Jr. - DoWhile 2021</title>
+    <link rel="shortcut icon" href="/src/images/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/animation.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <div class="degrade2"></div>
+    <div class="degrade1"></div>
+    <div class="range"></div>
+    <div class="circle"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <div class="circle4"></div>
     <main>
+        <div class="smash"></div>
         <div class="container">
             <div class="avatar">
-                <span><img src="images/build.svg" alt="Selo Rocketseat"></span>
-                <img src="https://avatars.githubusercontent.com/u/68311689?v=4" alt="Foto pessoal">
+                <span class="stampRockeseat"><img  class="stampRockeseat" src="./src/images/build.svg" alt="Selo Rocketseat"></span>
+                <img id="imgProfile" alt="Foto pessoal">
             </div>
-            <h1 id="userName" ></h1>
-            <a href="https://github.com/eliasmenezesjr/" target="_blanck">
-                <img src="images/github.svg" alt="ícone do github">
-                eliasmenezesjr
+            <h1 id="userName"></h1>
+            <a id="github_url" target="_blanck">
+                <img src="./src/images/github.svg" alt="ícone do github">
+                <span id="userNameGitHub"></span>
             </a>
-
-            <p>An instructor focused on helping pople start programming for web</p>
-
+            <p id="bioGitHub"></p>
             <ul id="socialLinks">
-                <li class="youtube"><a target="_blank"><img src="images/youtube.svg" alt="ícone do Youtube"></a></li>
-                <li class="facebook"><a target="_blank"><img src="images/facebook.svg" alt="ícone do facebook"></a></li>
-                <li class="instagram"><a target="_blank"><img src="images/instagram.svg" alt="ícone do instagram"></a></li>
-                <li class="twitter"><a target="_blank"><img src="images/twitter.svg" alt="ícone do twitter"></a></li>
+                <li class="youtube"><a target="_blank"><img src="src/images/youtube.svg" alt="ícone do Youtube"></a></li>
+                <li class="facebook"><a target="_blank"><img src="src/images/facebook.svg" alt="ícone do facebook"></a></li>
+                <li class="instagram"><a target="_blank"><img src="src/images/instagram.svg" alt="ícone do instagram"></a></li>
+                <li class="twitter"><a target="_blank"><img src="src/images/twitter.svg" alt="ícone do twitter"></a></li>
             </ul>
         </div>
+        <div class="star"></div>
     </main>
-
-    <script src="main.js"></script>
+    <script src="/src/scripts/main.js"></script>
 </body>
 </html>
