@@ -1,17 +1,17 @@
 @keyframes move_star { 
     0%,100%{ 
         transform: rotate(0deg);
-        margin-left: -5%; 
-        margin-top: -15px;
+        margin-left: 5%; 
+        margin-top: 0px;
     } 
     25%{ 
-        margin-left: 95%; 
-        margin-top: -15px;
+        margin-left: 90%; 
+        margin-top: 0px;
     }  
 
     50% { 
-        margin-left: 95%; 
-        margin-top: 525px; 
+        margin-left: 90%; 
+        margin-top: 515px; 
 
         background-color: #29292E;
         background-image: linear-gradient(to right,
@@ -20,8 +20,8 @@
     }
 
     75%{ 
-        margin-left: -5%; 
-        margin-top: 525px; 
+        margin-left: 5%; 
+        margin-top: 515px; 
 
         background-color: #29292E;
         background-image: linear-gradient(to right,
