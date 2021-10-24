@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+    --black: hsl(240%, 6% ,13%);
+    --gray:  hsl(240, 9%, 89%);
+    --gray-light: hsl(240, 7%, 78%);
+}
+
+:root{
+
+    /* gears configs */
+    --gear: polygon(20% 0%, 0% 20%, 15% 50%, 0% 80%, 20% 100%, 50% 85%, 80% 100%, 100% 80%, 85% 50%, 100% 20%, 80% 0%, 50% 15%);
+
+    --gradient-gear:  linear-gradient(to right,
+    rgba(255, 0, 142, 1),
+    rgba(255, 205,30,1),);
+}
