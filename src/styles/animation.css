@@ -10,6 +10,7 @@
     }  
 
     50% { 
+        transform: rotate(120deg);
         margin-left: 90%; 
         margin-top: 515px; 
 
@@ -20,6 +21,7 @@
     }
 
     75%{ 
+        transform: rotate(240deg);
         margin-left: 5%; 
         margin-top: 515px; 
 
