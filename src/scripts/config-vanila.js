@@ -1,6 +1,6 @@
 const widhtWindow = window.innerWidth;
 
-if(widhtWindow > 720){
+if(widhtWindow > 660){
     VanillaTilt.init(document.querySelector("main"), {
         max: 15,
         speed: 200

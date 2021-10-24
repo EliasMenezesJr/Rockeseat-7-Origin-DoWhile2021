@@ -7,10 +7,6 @@ body {
     
 }
 
-body .range {
-    display: none;
-}
-
 main{
     height: 100%;
     width: 100%;
@@ -96,7 +92,7 @@ ul {
     display: flex;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 660px) {
     body {
         background: rgb(18, 18, 20);
     }
@@ -130,7 +126,7 @@ ul {
         width: 65px;
         top: -310px;
         left: 147px;
-        display: block;
+        display: flex;
 
         background: linear-gradient(161.24deg, #FF008E -15.25%, #FFCD1E 111.89%);
         z-index: 2;
@@ -147,6 +143,8 @@ ul {
 
         opacity: 0.95;
         position: absolute;
+
+        transform-style: preserve-3d;
     }
 
     main .container {
@@ -161,6 +159,7 @@ ul {
         width: 80px;
         top: 16px;
         left: 139px;
+        display: flex;
 
         background: #121214;
 
