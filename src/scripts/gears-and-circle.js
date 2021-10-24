@@ -92,4 +92,10 @@ for(let i = 1; i <= 2; i++ ){
     }
 }
 
+const allGears = document.querySelectorAll(".config-gear")
 
+allGears.forEach( allGears =>{
+    allGears.addEventListener("mouseover", ()=>{
+        allGears.style.removeProperty('animation')
+    })
+})
