@@ -24,12 +24,12 @@ for( let i = 1; i <= 13; i++){
     }
 
     /* gear V left */
-    if( i < 7 ){
+    if( i < 6 ){
         const gearVR = document.createElement("div")
         gearVR.classList.add(`gear${i}VR`, "config-gear")
         gears.appendChild(gearVR)
 
-        topVR = topVR + 40
+        topVR = topVR + 45
         gearVR.style.top = `${topVR}px`
 
         if(i % 2){
