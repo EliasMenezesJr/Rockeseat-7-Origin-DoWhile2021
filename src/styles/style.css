@@ -7,6 +7,10 @@ body {
     
 }
 
+body .range {
+    display: none;
+}
+
 main{
     height: 100%;
     width: 100%;
@@ -126,6 +130,7 @@ ul {
         width: 65px;
         top: -310px;
         left: 147px;
+        display: block;
 
         background: linear-gradient(161.24deg, #FF008E -15.25%, #FFCD1E 111.89%);
         z-index: 2;
