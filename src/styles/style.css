@@ -42,7 +42,7 @@ main{
     top: -15px;
 
     position: absolute;
-    z-index: 1;
+    z-index: 3;
 }
 
 .avatar > img {
@@ -50,7 +50,7 @@ main{
     width: 10rem;
 
     object-fit: cover;
-    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
 
