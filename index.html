@@ -21,7 +21,6 @@
     <div class="icons">
         <div class="degrade2"></div>
         <div class="degrade1"></div>
-        <div class="range"></div>
 
         <div id="gears">
         </div>
@@ -31,6 +30,7 @@
 
     </div>
     <main>
+        <div class="range"></div>
         <div class="smash"></div>
         <div class="container">
             <div class="avatar">
@@ -54,5 +54,17 @@
     </main>
     <script src="/src/scripts/main.js"></script>
     <script src="/src/scripts/gears-and-circle.js"></script>
+
+    <script src="src/scripts/vanilla-tilt.min.js"></script>
+
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector("main"), {
+            max: 15,
+            speed: 200
+        });
+        
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
 </body>
 </html>
