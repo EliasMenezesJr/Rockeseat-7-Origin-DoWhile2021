@@ -96,6 +96,6 @@ const allGears = document.querySelectorAll(".config-gear")
 
 allGears.forEach( allGears =>{
     allGears.addEventListener("mouseover", ()=>{
-        allGears.style.removeProperty('animation')
+        allGears.style.animation = "rotateImg 5s infinite"
     })
 })

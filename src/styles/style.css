@@ -4,6 +4,9 @@ body {
 
     display: grid;
     place-items: center;
+
+    background: rgb(18, 18, 20);
+    overflow: hidden;
     
 }
 
