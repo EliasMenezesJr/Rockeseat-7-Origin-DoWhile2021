@@ -23,21 +23,29 @@
     justify-content: space-between;
 
     position: absolute;
+
+    border-radius: 50%;
 }
 
 #circle img {
     margin: auto;
     height: 17px;
-    padding: .5rem;
-    border-radius: 1rem;
-    animation: rotateImg 10s linear infinite;
-    border: 1px groove rgba(255, 205,30,1);
+    /* padding: .5rem; */
+     border-radius: 1rem;
+    animation: rotateImg 10s linear infinite; 
+    /* border: 1px groove rgba(255, 205,30,1); */
+
+    padding: 2.5rem
 }
 
 .content-circle {
     justify-content: space-between;
     display: flex;
     flex-direction: column;
+}
+
+.test123 {
+    margin-left: -4rem;
 }
 
 .circle-slider {

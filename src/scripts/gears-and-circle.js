@@ -8,7 +8,7 @@ let bottomGearH = 520
 let leftGearH = 120
 
 for( let i = 1; i <= 13; i++){
-    /* gear V Right */
+    /* gear V Left*/
     const gearVL = document.createElement(`div`)
     gearVL.classList.add(`gear${i}VL`,`config-gear`)
     gears.appendChild(gearVL)
@@ -23,7 +23,7 @@ for( let i = 1; i <= 13; i++){
         gearVL.style.left = "100px"
     }
 
-    /* gear V left */
+    /* gear V Right */
     if( i < 6 ){
         const gearVR = document.createElement("div")
         gearVR.classList.add(`gear${i}VR`, "config-gear")
@@ -90,12 +90,24 @@ for(let i = 1; i <= 2; i++ ){
         circleSlider.classList.add("circle-slider")
         contentCircle.appendChild(circleSlider)
     }
+
+    if(i == 2){
+        contentCircle.classList.add("test123")
+    }
 }
 
 const allGears = document.querySelectorAll(".config-gear")
 
-allGears.forEach( allGears =>{
-    allGears.addEventListener("mouseover", ()=>{
-        allGears.style.animation = "rotateImg 5s infinite"
-    })
+allGears.forEach( (gear, index) =>{
+
+    if(index % 2){
+        gear.addEventListener("mouseover", ()=>{
+            gear.style.animation = "rotateImg 5s infinite"
+        })
+
+    } else {
+        gear.addEventListener("mouseover", ()=>{
+            gear.style.animation = "rotateImg2 5s infinite"
+        })
+    }
 })

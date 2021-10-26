@@ -146,6 +146,7 @@ ul {
 
         opacity: 0.95;
         position: absolute;
+        display: flex;
 
         transform-style: preserve-3d;
     }
