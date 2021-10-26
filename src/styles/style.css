@@ -105,25 +105,29 @@ ul {
     }
 
     body .degrade2 {
-        height: 1118px;
-        width: 1118px;
+        height: 518px;
+        width: 518px;
         top: -696px;
         left: 0;
         
         background: radial-gradient(50% 50% at 50% 50%, #FF3D6E -200%, rgba(18, 18, 20, 0) 100%);
         position: fixed;
+
+        animation: degrade2 10s linear infinite alternate;
     }
 
     body .degrade1 {
-        height: 1118px;
-        width: 1118px;
+        height: 518px;
+        width: 518px;
         top: -696px;
         right: 0;
         
         background: radial-gradient(50% 50% at 50% 50%, #FFC323 -200%, rgba(18, 18, 20, 0) 100%);
         position: fixed;
-    }
 
+        animation: degrade1 10s linear infinite alternate;
+    }
+  
     body .range {
         Height: 330px;
         width: 65px;

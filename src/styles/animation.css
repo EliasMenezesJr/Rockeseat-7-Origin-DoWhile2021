@@ -40,3 +40,33 @@
 @keyframes rotateImg2 {
     from { transform: rotate(360deg) } to { transform: rotate(0deg) }
 }
+
+
+@keyframes degrade1 {
+    from { 
+        top: -696px;
+        background: radial-gradient(50% 50% at 50% 50%, #FFC323 -200%, rgba(18, 18, 20, 0) 100%);
+        transform: scale(.5)
+    }
+
+    to { 
+        top: 696px;
+        background: radial-gradient(50% 50% at 50% 50%, #FF3D6E -200%, rgba(18, 18, 20, 0) 100%);
+        transform: scale(1)
+    }
+}
+
+@keyframes degrade2 {
+    from { 
+        top: 696px;
+        background: radial-gradient(50% 50% at 50% 50%, #FF3D6E -200%, rgba(18, 18, 20, 0) 100%);
+        transform: scale(.5)
+    }
+
+    to { 
+        top: -696px;
+        background: radial-gradient(50% 50% at 50% 50%, #FFC323 -200%, rgba(18, 18, 20, 0) 100%);
+        transform: scale(1)
+
+    }
+}
