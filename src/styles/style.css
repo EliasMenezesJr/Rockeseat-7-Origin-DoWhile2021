@@ -113,7 +113,7 @@ ul {
         background: radial-gradient(50% 50% at 50% 50%, #FF3D6E -200%, rgba(18, 18, 20, 0) 100%);
         position: fixed;
 
-        animation: degrade2 10s linear infinite alternate;
+        animation: degrade2 5s linear infinite alternate;
     }
 
     body .degrade1 {
@@ -125,7 +125,7 @@ ul {
         background: radial-gradient(50% 50% at 50% 50%, #FFC323 -200%, rgba(18, 18, 20, 0) 100%);
         position: fixed;
 
-        animation: degrade1 10s linear infinite alternate;
+        animation: degrade1 5s linear infinite alternate;
     }
   
     body .range {
